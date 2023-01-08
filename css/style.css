@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: skyblue;
+}
+
+/*heading*/
+
+.heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: royalblue;
+	width: 100%;
+	padding: 15px;
+	color: white;
+}
+.heading a{
+	margin-left: 10px;
+	padding-top: 10px;
+	text-decoration: none;
+	color: black;
+}
+.heading img{
+	width:60px;
+}
+
+/*input*/
+
+.main-container{
+	width:600px;
+	margin:auto;
+}
+.input-container{
+	width:100%;
+	border-radius: 5px;
+	box-shadow: 2px 5px 10px black;
+	padding: 20px;
+	background-color: white;
+	margin:20px 0;
+	display: flex;
+}
+
+.input-container input{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border:1px solid lightslategray;
+	outline: none;
+}
+.input-container button{
+	background-color: royalblue;
+	padding: 10px 20px;
+	border:none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+
+/*food list*/
+
+.food-container{
+	width: 100%;
+	background-color: white;
+	list-style: none;
+	position: relative;
+	text-align: left;
+	font-size: 15px;
+}
+.food-container li{
+	border:1px solid lightgray;
+	padding:3px 5px;
+	border-radius: 3px;
+	color: dimgray;
+	position: relative;
+	margin-bottom: 5px;
+}
+.food-container li:hover{
+	background-color: lightgray;
+}
+.food-container li i{
+	position: absolute;
+	top:15%;
+	right:5px;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+.food-container li i:hover{
+	color: red;
+	transform: scale(1.03);
+
+}
+
+/* no list image */
+section{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	font-size: 25px;
+	color: gray;
+	padding: 20px;
+	box-shadow: 2px 5px 15px black;
+	border-radius: 5px;
+}
+section img{
+	width: 400px;
+	background-size: cover;
+}
+
+#statistic{
+	font-size: 12px;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+}
